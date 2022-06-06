@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>Document</title>
+</head>
+<body>
+    <div class="container-lg">
+        <div class="row p-3 justify-content-center align-items-center">
+          <div class="col-md-6 text-center text-md-start">
+            <h1>
+              <div class="display-3">MasterBook</div>
+              <div class="display-6 text-muted">Coding Slkills</div>
+            </h1>
+            <p class="lead my-4 text-muted">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque, vel!</p>
+     
+            <a data-bs-toggle="offcanvas" href="#sidebar" role="button" aria-controls="sidebar" class="btn btn-warning btn-md" >Buy Now</a>
+    
+          </div>
+          <div class="col-md-6 text-center d-none d-md-block">
+            <img src="/book.jpg" class="img-fluid" alt="ebook">
+          </div>
+        </div>
+      </div>
+    
+      <div class="offcanvas offcanvas-start" tabindex="-1" id="sidebar" aria-labelledby="offcanvasExampleLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasExampleLabel">Your Cart</h5>
+          <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <img src="/book.jpg" class="img-fluid" alt="ebook">
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deleniti, facilis.</p>
+          
+          <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="deliveryoption" data-bs-toggle="dropdown" aria-expanded="false">
+              Delivery Options
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="deliveryoption">
+              <li><a class="dropdown-item" href="#">Express</a></li>
+              <li><a class="dropdown-item" href="#">Register</a></li>
+              <li><a class="dropdown-item" href="#">Parcel</a></li>
+            </ul>
+          </div>
+    
+        </div>
+      </div>
+
+      
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
